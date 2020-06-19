@@ -1,6 +1,6 @@
 CC=gcc
-CFLAGS=-W -Wall -lncurses -lm -g
-LDFLAGS=-W -Wall -lncurses -lm -g
+CFLAGS=-W -Wall -lm -g
+LDFLAGS=-W -Wall -lm -g
 EXEC=polynome
 
 all: $(EXEC)
